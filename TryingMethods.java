@@ -5,6 +5,13 @@ public class TryingMethods {
 
     public static void main(String[] args) {
         iftest(10);
+
+        TryingMethods obj = new TryingMethods();
+           
+        //This method return somthing
+            String day = obj.daysOfWeek(10);   
+            
+            System.out.println(day);
         
     }
 
@@ -31,6 +38,33 @@ public class TryingMethods {
 
          
      }
+
+     public String  daysOfWeek (int day){
+                
+        switch(day) {
+            case 1:
+            return "Today is Monday" ;
+            
+            case 2:
+            return "Today is Tuesday" ;
+
+            case 3:
+            return "Today is Wednesday" ;
+            
+            case 4:
+            return "Today is Thursday" ;
+
+            case 5:
+            return "Today is Friday" ;
+
+            default:
+            return "Not a weekday , enter days between 1 to 5";
+
+
+        }
+
+        
+      }
 
     
 }
