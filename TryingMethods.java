@@ -1,5 +1,6 @@
 /**
  * TryingMethods
+ * Program to test the creation and implementation of various methods
  */
 public class TryingMethods {
 
