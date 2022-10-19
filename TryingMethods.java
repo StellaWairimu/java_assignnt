@@ -12,6 +12,8 @@ public class TryingMethods {
             String day = obj.daysOfWeek(10);   
             
             System.out.println(day);
+
+            System.out.println(sumofNumbers());
         
     }
 
@@ -64,6 +66,17 @@ public class TryingMethods {
         }
 
         
+      }
+
+      //Sum of numbers <1000 
+
+      public static int sumofNumbers() {
+        int sum = 0, i=1;
+        while (i<1000) {
+            sum+=i;
+            i++;
+        }
+        return sum;
       }
 
     
