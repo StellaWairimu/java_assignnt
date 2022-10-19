@@ -14,6 +14,8 @@ public class TryingMethods {
             System.out.println(day);
 
             System.out.println(sumofNumbers());
+
+            System.out.println(evenNumbers()); 
         
     }
 
@@ -75,6 +77,20 @@ public class TryingMethods {
         while (i<1000) {
             sum+=i;
             i++;
+        }
+        return sum;
+      }
+
+      public static int evenNumbers() {
+        int sum = 0;
+        for (int x= 12; x<=103; x++) 
+        {
+          if (x % 2 == 0 )
+          {
+            sum +=x;
+            
+          }
+          
         }
         return sum;
       }
